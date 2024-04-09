@@ -9,7 +9,7 @@ const Home = () => {
         title={
           <p>
             Dive into 
-            <br /> Recetti!
+            <br /> Flavour Fusion!
           </p>
         }
         type='home'
