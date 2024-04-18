@@ -1,20 +1,23 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 import github from "../assets/github.png";
-
 import classes from "./styles/Header.module.css";
-import { Link } from "react-router-dom";
 
 export function Header() {
   return (
     <header className={classes.header}>
-      <Link to="/recipes" className={classes["header__logo"]}>
-        <img src={logo} className={classes.logo} alt="" />
+      <Link to="/recipes" className={classes.logo}>
+        <img src={logo} alt="" />
       </Link>
-      <a href="https://github.com/Alessandro9936/S2I_React" target="_blank">
-        <img src={github} alt="github icon redirect to project directory" />
-      </a>
+      <nav className={classes.nav}>
+      <a href="https://javascriptbear.github.io/todo_react_app/" className={classes.link}>
+        <button className={classes.button}>Button 1</button>
+      </a>  
+        <button className={classes.button}>Button 2</button>
+        <button className={classes.button}>Button 3</button>
+        <button className={classes.button}>Button 4</button>
+      </nav>
     </header>
   );
 }
