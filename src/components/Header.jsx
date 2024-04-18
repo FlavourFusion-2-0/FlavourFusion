@@ -11,7 +11,9 @@ export function Header() {
         <img src={logo} alt="" />
       </Link>
       <nav className={classes.nav}>
+      <a href="https://javascriptbear.github.io/todo_react_app/" className={classes.link}>
         <button className={classes.button}>Button 1</button>
+      </a>  
         <button className={classes.button}>Button 2</button>
         <button className={classes.button}>Button 3</button>
         <button className={classes.button}>Button 4</button>
