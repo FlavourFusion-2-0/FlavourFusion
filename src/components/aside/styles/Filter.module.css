@@ -1,0 +1,34 @@
+.filter {
+  cursor: pointer;
+
+  list-style: none;
+
+  background-color: var(--input-bg);
+
+  padding: var(--size08);
+  border-radius: var(--border5);
+
+  font-weight: bold;
+}
+
+.filter__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.options-container {
+  height: 10rem;
+  overflow-y: scroll;
+  margin-top: var(--size08);
+}
+
+.hidden {
+  display: none;
+}
+
+/*
+  .filter__header img {
+    transform: rotate(90deg);
+  }
+  */
