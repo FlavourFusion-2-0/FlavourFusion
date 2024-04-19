@@ -12,11 +12,13 @@ export function Header() {
       </Link>
       <nav className={classes.nav}>
       <a href="https://javascriptbear.github.io/todo_react_app/" className={classes.link}>
-        <button className={classes.button}>Button 1</button>
+        <button className={classes.button}>Upload Your Recipe!</button>
       </a>  
-        <button className={classes.button}>Button 2</button>
-        <button className={classes.button}>Button 3</button>
-        <button className={classes.button}>Button 4</button>
+        <a href="https://jebasuthan.github.io/React-form-registration/" className={classes.link}>
+        <button className={classes.button}>Login </button>
+        </a>
+        <button className={classes.button}>About Us</button>
+        <button className={classes.button}>Contact Us</button>
       </nav>
     </header>
   );
