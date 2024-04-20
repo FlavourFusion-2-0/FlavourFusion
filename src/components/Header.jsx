@@ -10,7 +10,7 @@ export function Header() {
       <Link to="/recipes" className={classes.logo}>
         <img src={logo} alt="" />
       </Link>
-      <h1>Veggie Recipe</h1>
+      <h1><u>Veggie Recipe</u></h1>
       <nav className={classes.nav}>
       <a href="https://javascriptbear.github.io/todo_react_app/" className={classes.link}>
         <button className={classes.button}>Upload Your Recipe!</button>
