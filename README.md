@@ -17,7 +17,7 @@ This repository contains the source code for a Recipe Finder website, which allo
 
 ### About the website
 
-FlavorFusion is a website designed to meet the needs of vegetarians and anyone looking for delicious and nutritious dishes made from plant-based ingredients. Through this site, users are provided with a wide range of vegetarian recipes, filterable by name, dish type, cuisine, dietary restrictions, and much more, thanks to communication with Spoonacular's external API.
+FlavourFusion is a website designed to meet the needs of vegetarians and anyone looking for delicious and nutritious dishes made from plant-based ingredients. Through this site, users are provided with a wide range of vegetarian recipes, filterable by name, dish type, cuisine, dietary restrictions, and much more, thanks to communication with Spoonacular's external API.
 
 
 ### Features
