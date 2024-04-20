@@ -20,11 +20,6 @@ export function Header() {
         </a>
         <button className={classes.button}>About Us</button>
         <button className={classes.button}>Contact Us</button>
-        <a href="Login-Page-React-main" className={classes.link}>
-        <button className={classes.button}>Login</button>
-        </a>
-        <button className={classes.button}>About Us</button>
-        <button className={classes.button}>Contacts</button>
 
       </nav>
     </header>
