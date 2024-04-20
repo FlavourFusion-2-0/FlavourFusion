@@ -7,7 +7,7 @@ This repository contains the source code for a Recipe Finder website, which allo
 ## Table of contents
 - [About the website](#about-the-website)
 - [Features](#features)
-- [Technologies Used](#Technologies Used)
+- [Technologies Used](#TechnologiesUsed)
 - [Libraries](#Libraries)
 - [Installation](#Installation)
 - [Contributing](#Constributing)
