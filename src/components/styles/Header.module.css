@@ -40,3 +40,27 @@
 .button:hover {
 transform:translateY(-10px);
 }
+
+h1 {
+  font-size: 36px; /* Adjust font size as needed */
+  font-weight :bolder; /* Make the font bold */
+  color: #fff; /* Set the text color */
+  /* Add any additional styles you want */
+
+  /* Animation */
+  animation-name: slideInFromLeft;
+  animation-duration: 1s;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
